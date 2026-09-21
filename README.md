@@ -1,4 +1,6 @@
-# Predicting Nitrate Concentrations in Danish Streams - Master Thesis Project in Business Intelligence at Aarhus University. 
+# Predicting Nitrate Concentrations in Danish Streams
+
+**Master's Thesis Project in Business Intelligence at Aarhus University**
 
 ## Project Overview 
 
@@ -8,13 +10,9 @@ The project investigates whether machine learning models can predict nitrate con
 
 Environmental data are spatially dependent. A random train/test split can therefore produce overly optimistic estimates of model performance because nearby observations may appear in both training and test data. This project evaluates the models using spatially separated validation. 
 
-## Data
-
-The project integrates environmental, hydrological, meteorological, agricultural and spatial data from multiple danish data sources. The original nitrate dataset contained 63,471 measurements from danish streams between 2016-2023. 
-
 ## Data Preparation
 
-The project involved collecting, cleaning and integrating multiple spatial and tabular data sources. Environmental observations were linked with hydrological, meteorological, agricultural and geographical features.
+The project integrates environmental, hydrological, meteorological, agricultural and spatial data from multiple danish data sources. The original nitrate dataset contained 63,471 measurements from danish streams between 2016-2023. The project involved collecting, cleaning and integrating multiple spatial and tabular data sources. Environmental observations were linked with hydrological, meteorological, agricultural and geographical features.
 
 The workflow included:
 - Data cleaning and quality assessment
